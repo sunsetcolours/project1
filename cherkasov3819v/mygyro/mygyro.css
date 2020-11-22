@@ -1,0 +1,119 @@
+div.background {
+    background: url(giro4.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-attachment: fixed;
+    border-top: 0.5px solid rgb(204, 234, 111);
+    border-bottom: 0.5px solid rgb(204, 234, 111);
+}
+
+header {
+    height: 100%;
+    width: 100%;
+}
+
+div.header1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(61, 70, 72);
+}
+
+img.logo {
+    width: 200px;
+    padding: 5px;
+}
+
+img.korzina {
+    padding: 5px;
+    width: 30px;
+}
+
+div.header2 {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(61, 70, 72);
+    border-top: 0.5px solid rgb(204, 234, 111);
+}
+
+div.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.ssilki {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.ssilki a {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 13px 50px;
+    color: rgb(255, 253, 107);
+}
+
+div.ssilki a:hover {
+    color: rgb(204, 234, 111);
+}
+
+div.zagolovok {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 5px;
+    color: white;
+    text-align: center;
+    text-indent: 20px;
+}
+
+div.zagolovok1 {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 5px;
+    color: rgb(204, 234, 111);
+    text-align: center;
+
+}
+
+div.content {
+    margin: 0 auto;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+
+div.block1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 30px;
+    max-width: 25%;
+    background-color: rgb(61, 70, 72)
+}
+
+div.osobennosti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+

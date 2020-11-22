@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <main>
+            <div class="content">
+                <a href="cherkasov3819v.html">
+                    <div class="zagolovok">
+                        На главую
+                    </div>
+                </a>
+                <div class="uslovie">
+                    Условие:
+                    Если выписать все натуральные числа меньше 10, кратные 3 или 5, то получим 3, 5, 6 и 9. Сумма этих чисел равна 23.
+                    Найдите сумму всех чисел меньше 1000, кратных 3 или 5.
+                </div>
+                Решение:
+                <script>
+                    var sum = 0
+                    for (var i = 0; i < 1000; i++) {
+                        if (i % 3 == 0 || i % 5 == 0) {
+                            sum+=i
+                        }
+                    }
+                    document.write(sum)
+                </script>
+            </div>
+        </main>
+    <body>
+</html>

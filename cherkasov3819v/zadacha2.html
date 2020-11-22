@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <main>
+            <div class="content">
+                <a href="cherkasov3819v.html">
+                    <div class="zagolovok">
+                        На главую
+                    </div>
+                </a>
+                <div class="uslovie">
+                    Условие:
+                    Каждый следующий элемент ряда Фибоначчи получается при сложении двух предыдущих. Начиная с 1 и 2, первые 10 элементов будут:
+                    1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
+                    Найдите сумму всех четных элементов ряда Фибоначчи, которые не превышают четыре миллиона.
+                </div>
+                Решение:
+                <script>
+                    var n = 0
+                    var m = 2
+                    var s = 0
+                    while (m < 4000000){
+                    s = s + m
+                    x = m
+                    m = m*4 + n
+                    n = x
+                    }
+                    document.write(s)
+                </script>
+            </div>
+        </main>
+    <body>
+</html>
+
